@@ -10,7 +10,9 @@
         </el-card>
 
         <el-row :gutter="20">
+
             <el-col :span="12">
+                
                 <el-card class="mgb20">
                     <template #header>轮播图</template>
                     <el-carousel height="300px">

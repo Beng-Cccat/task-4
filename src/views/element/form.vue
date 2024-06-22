@@ -14,6 +14,8 @@
                     <el-form-item label="数字框" prop="num">
                         <el-input-number v-model="form.num" :min="1" :max="10" />
                     </el-form-item>
+
+                    
                     <el-form-item label="日期选择" prop="date">
                         <el-date-picker type="date" placeholder="选择日期" v-model="form.date"></el-date-picker>
                     </el-form-item>

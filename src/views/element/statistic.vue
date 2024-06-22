@@ -5,16 +5,18 @@
         <el-card class="mgb20" shadow="hover">
             <template #header>基础用法</template>
             <el-row>
-                
+
                 <el-col :span="6" style="text-align: center">
                     <el-statistic title="Daily active users" :value="268500" />
                 </el-col>
+
                 <el-col :span="6" style="text-align: center">
                     <el-statistic :value="138">
                         <template #title>
                             <div style="display: inline-flex; align-items: center">
                                 Ratio of men to women
                             </div>
+                            
                         </template>
                         <template #suffix>/100</template>
                     </el-statistic>
