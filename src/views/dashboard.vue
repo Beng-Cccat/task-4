@@ -154,6 +154,7 @@ use([
     MapChart,
 ]);
 registerMap('china', chinaMap);
+
 const activities = [
     {
         content: '环境动态',

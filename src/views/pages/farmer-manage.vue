@@ -430,6 +430,7 @@ const updateDateType2 =async(fishType:string)=>{
   selectedDataType2.value=fishType;
 }
 
+
 // 根据选中的属性和类型获取图表数据
 const fetchChartData = async (type: string, fishType: string) => {
   try {
