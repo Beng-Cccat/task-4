@@ -19,6 +19,7 @@
 import { ref } from 'vue';
 
 const today = new Date();
+
 const yesterday = new Date(today.getTime() - 24 * 60 * 60 * 1000);
 const value = ref(today);
 

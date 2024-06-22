@@ -12,6 +12,7 @@
 					<template #default="scope">
 						<el-button size="small" @click="handleRead(scope.$index)">标为已读</el-button>
 					</template>
+					
 				</el-table-column>
 			</el-table>
 			<div class="handle-row">
