@@ -91,6 +91,7 @@ const checked = ref(false);
 // 封装成功登录
 const successLogin = (response: AxiosResponse | null = null) => {
     ElMessage.success('登录成功');
+    
     const keys = permiss.defaultList[param.role];
     permiss.handleSet(keys);
     userStore.login(param.username, param.password, param.role);
