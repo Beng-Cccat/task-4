@@ -1,0 +1,33 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "name": "张三",
+            "email": "123456@163.com",
+            "state": true,
+            "date": "2019-11-1"
+        },
+        {
+            "id": 2,
+            "name": "李四",
+            "email": "123456@163.com",
+            "state": true,
+            "date": "2019-10-11"
+        },
+        {
+            "id": 3,
+            "name": "王五",
+            "email": "123456@163.com",
+            "state": false,
+            "date": "2019-11-11"
+        },
+        {
+            "id": 4,
+            "name": "赵六",
+            "email": "123456@163.com",
+            "state": true,
+            "date": "2019-10-20"
+        }
+    ],
+    "pageTotal": 4
+}

@@ -1,0 +1,51 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "name": "管理员",
+            "key": "admin",
+            "status": true,
+            "permiss": [
+                "0",
+                "7",
+                "1",
+                "11",
+                "12",
+                "001"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "普通用户",
+            "key": "user",
+            "status": true,
+            "permiss": [
+                "0",
+                "001"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "养殖户",
+            "key": "farmer",
+            "status": true,
+            "permiss": [
+                "0",
+                "001",
+                "002"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "数据分析师",
+            "key": "analyst",
+            "status": true,
+            "permiss": [
+                "0",
+                "001",
+                "003"
+            ]
+        }
+    ],
+    "pageTotal": 4
+}
