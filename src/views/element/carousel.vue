@@ -7,6 +7,7 @@
                     <h3>{{ item }}</h3>
                 </el-carousel-item>
             </el-carousel>
+            
         </el-card>
 
         <el-row :gutter="20">

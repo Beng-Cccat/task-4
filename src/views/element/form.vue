@@ -5,6 +5,7 @@
             <el-radio-button value="right">Right</el-radio-button>
             <el-radio-button value="top">Top</el-radio-button>
         </el-radio-group>
+        
         <el-form ref="formRef" :rules="rules" :model="form" label-width="120px" :label-position="labelPosition">
             <el-row :gutter="50">
                 <el-col :span="10">
